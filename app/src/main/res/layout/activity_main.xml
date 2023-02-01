@@ -11,14 +11,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Launch Rotate"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="98dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        android:onClick="onClickLaunchRotate"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Launch Clock"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="416dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        android:onClick="onClickLaunchClock"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
